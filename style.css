@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Oleo+Script&display=swap');
+.header{
+    background: url('media/header-background.png') no-repeat center top / cover;
+}
+.header2{
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.webnetworks{
+    display: flex;
+}
+.header ul li{
+    display: inline;
+
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.header ul{
+    position: relative;
+    bottom: 10px;
+}
+.header h1{
+    color: white;
+    clear: both;
+    font-size: 30px;
+}
+.menu, .contacts{
+    justify-content: end;
+}
+.contacts  img {
+    margin-right: 5px;
+}
+.photo img{
+    width: 25%;
+    /* display: flex; */
+    margin: 0px;
+    
+}
+.photo div{
+    display: flex;
+}
+.photo div{
+    overflow: hidden;
+}
+main{
+    background-color: rgb(0, 27, 49);
+}
+.hello2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.texth1{
+    color: white;
+    font-size: 30px;
+    width: 850px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.Consequat-ante{
+    column-count: 3;
+    column-gap: 30px;
+    column-width: 210px;
+    background-color: rgb(1, 70, 128);
+    margin: auto;
+    width: 960px;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+/* .Consequat-ante div{
+    flex: 1 1 250px;
+    display: flex;
+    flex-flow: column;
+}
+.com, .rebki2, .rebki3{
+
+
+    display: flex;
+} */
+.Consequat-ante img{
+    float: left;
+    margin-bottom: 220px;
+    margin-right: 15px;
+}
+.Adipiscing{
+    margin: auto;
+    color: white;
+}
+.Consequat-ante a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: auto;
+    font-size: 20px;
+}
+.Consequat-ante a:hover{
+    color: gray;
+}
+.com h2{
+    margin: 0;
+}
+.wow{
+    width: 960px;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.welcome, .news, .reviews{
+    display: inline-block;
+}
+.welcome{
+    width: 305px;
+    margin-right: 40px;
+}
+.welcome img{
+    width: 305px;
+}
+.welcome h2, .welcome p{
+    width: 305px;
+    color: white;
+}
+.welcome h2{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.welcome button{
+    background-color: lightskyblue;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+.welcome button a{
+    font-weight: 20px;
+    text-decoration: none;
+    color:rgb(244, 245, 245);
+}
+.news{
+    width: 305px;
+}
+.news h2, .news p{
+    color: white;
+}
+.news h2{
+    margin-top: 0px;
+}
+.news a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+.news img{
+    background-color: lightskyblue;
+}
+.news img:hover{
+    background-color: rgb(0, 27, 49);
+}
+.reviews{
+    width: 305px;
+    margin-left: 40px;
+    border: 3px;
+    
+}
+.reviews h2, .reviews p{
+    color:white;
+}
+.reviews h2{
+    margin-top: 0px;
+}
+.reviews img{
+    float: left;
+    margin: 15px;
+    margin-left: 0px;
+}
+.reviews button{
+    background-color: lightskyblue;
+    border: none;
+    width: 80px;
+    height: 30px;
+}
+.reviews button a{
+    font-weight: 20px;
+    text-decoration: none;
+    color:white;
+}
+button:hover{
+    background-color: rgb(0, 27, 49);
+}
+.reviews div{
+display: flex;
+}
+footer{
+    height: 100px;
+    background: url('media/header-background.png') no-repeat center top;
+    background-size: cover;
+    margin: 0px;
+}
+.footeer2{
+    width: 960px;
+    margin: auto;
+}
+.privacyPolicy{
+    float: left;
+    color: white;
+    margin-top: 50px;
+}
+.basement{
+    float: right;
+    display: inline;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.basement li{
+    display: inline;
+    margin-right: 20px;
+}
+.basement li a:hover{
+    color: gray;
+}
+.basement a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+p, footer li {
+    font-family: 'Asap';
+}
+h1, h2, .nav li{
+    font-family: 'Oleo Script';
+}
